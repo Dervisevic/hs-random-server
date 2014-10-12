@@ -1,0 +1,27 @@
+{
+  "name": "hs-random-server",
+  "version": "0.1.0",
+  "description": "Server for the Hearthstone randomizer app.",
+  "author": "Denis Dervisevic <denis@dervisevic.se>",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dervisevic/hs-random-server"
+  },
+  "bugs": {
+    "url": "https://github.com/Dervisevic/hs-random-server/issues"
+  },
+  "keywords": [
+    "hearthstone",
+    "websockets"
+  ],
+  "dependencies": {
+    "ws": ">=0.4.32"
+  },
+  "preferGlobal": true,
+  "private": false,
+  "license": "MIT"
+}
